@@ -476,24 +476,17 @@ class Md_user extends CI_Model {
 		}
                
                break;
-           case 'edit':
-               break;
+           
        endswitch;
            
       
    }
- 	function randName($len)
-	{
-srand((double)microtime()*10000000);
-$chars = "ABCDEFGHIJKLMNPQRSTUVWXYZ123456789";
-$ret_str = "";
-$num = strlen($chars);
-for($i = 0; $i < $len; $i++)
-{
-$ret_str.= $chars[rand()%$num];
-$ret_str.="";
-}
-return $ret_str;
-}
+      function _querypassword(){
+          $data=array(
+              'usr_name'=>  $this->input->post('username'),
+              'usr_pwd'=>md5($this->input->post('password'))
+          );
+          return $this->db->where('Id',  $this->input->post('UID'))->update('tb_user',$data);
+      }
 }
 ?>

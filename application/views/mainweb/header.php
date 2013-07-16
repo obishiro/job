@@ -54,7 +54,7 @@ echo link_tag("assets/css/font-awesome.min.css");
 		
 			});
                         
-        $('#TableData').dataTable( {
+        $('#TableData,#TableData_interest').dataTable( {
  
         });
         }); 

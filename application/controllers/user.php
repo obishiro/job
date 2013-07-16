@@ -190,6 +190,13 @@ class User  extends CI_Controller{
 //                break;
           endswitch;
     }
+    function changepass(){
+        if($this->input->post('add-chpass')):
+            if($this->Md_user->_querypassword()):
+                echo "ok";
+            endif;
+        endif;
+    }
     
 }
 

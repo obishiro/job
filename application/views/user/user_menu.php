@@ -93,17 +93,25 @@ $num=$this->db->where('usr_id',$UsrId)
 </div>
 <div class="tab-pane" id="tabs1-pane2">
  <?php
- $this->load->view("user/data_interest");
+ $this->load->view("user/data_userregister");
  ?>
 
 </div>
 <div class="tab-pane" id="tabs1-pane3">
-<h4>Pane 3 Content</h4>
+  <?php
+    $this->load->view("user/data_userinterest");
+    ?>
 </div>
 <div class="tab-pane" id="tabs1-pane4">
 <h4>Pane 4 Content</h4>
 <p>Donec semper vestibulum dapibus. Integer et sollicitudin metus. Vivamus at nisi turpis. Phasellus vel tellus id felis cursus hendrerit. Suspendisse et arcu felis, ac gravida turpis. Suspendisse potenti. Ut porta rhoncus ligula, sed fringilla felis feugiat eget. In non purus quis elit iaculis tincidunt. Donec at ultrices est.</p>
 </div>
+    <div class="tab-pane" id="tabs1-pane5">
+<h4>Change password</h4>
+<?php
+$this->load->view("user/changepassword");
+?>
+ </div>
 </div><!-- /.tab-content -->
 </div><!-- /.tabbable -->
 						 

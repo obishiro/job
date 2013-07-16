@@ -233,6 +233,23 @@ $(document).ready(function(){
                    }); 
            });
            
-            
+            $("#bt-chpass").click(function(){
+               $.ajax({
+                   url:"user/changepass",
+                   cache:false,
+                   type:"POST",
+                   data:$("#frm_chpass").serialize(),
+                   success:function(res){
+                       if(res=="ok"){
+                           alert("Success");
+                           location.reload();
+                       }
+                   },
+                           error:function(err) {
+                            alert("Error");
+                           }
+                   
+               });
+            });
 	 
 }); // end document.ready
