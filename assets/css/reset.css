@@ -1,0 +1,90 @@
+body {
+    background-color: #fff; 
+    text-align: left;
+    margin: 0px;
+}
+table {
+    font-size: 13px;
+}
+ 
+ .navbar {
+  *position: relative;
+  *z-index: 2;
+  margin-bottom: 0px;
+  overflow: visible;
+}
+ 
+
+ .form-signin {
+        max-width: 100%;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+      .navbar {
+          /*margin-top: 100px;*/
+      }
+      #top-header {
+          margin: 0px;
+          background:url(../../images/bg_header.jpg)repeat-x;
+          height: 100px;
+          border-bottom: 1px solid #fff;
+          
+      }
+      .container {
+          margin-top: 20px;
+      }
+      .box-search {
+       margin-top: -22px;   
+       
+       border-top: 0px;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+                 -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    
+      }
+      .tabbable {
+          margin: 10px;
+      }
+      .row-fluid box-search-content {
+          border-bottom: 1px dashed  #555555;
+      }
+      .nav-tabs > .active > a,
+    .nav-tabs > .active > a:hover,
+    .nav-tabs > .active > a:focus {
+      color: #000;
+      cursor: default;
+       border: 1px solid #ddd;
+      border-bottom-color: transparent;
+    }
+.nav-tabs .span2 ul li > .active > a    {
+        color:red;
+    }                                    
+    legend {
+        width: 95%;
+    }
+    .cls-box {
+        height: 10px;
+    }
