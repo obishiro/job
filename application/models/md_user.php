@@ -22,10 +22,7 @@ class Md_user extends CI_Model {
             $data['goto']="user";
             $this->load->view("display",$data);   
          }
-         
-           
             
-                                    //    return $sql > 0 ? TRUE : FALSE;
     }
     function _gender() {
               $sql=  $this->db->order_by('gender_name','ASC')
