@@ -90,6 +90,6 @@
       <button type="reset" class="btn btn-danger"><i class="icon-remove icon-large"></i> <?=label("cancel");?></button>
     </div>   
 </form>
-    <? } ?>
+    <?php } ?>
 </div>
  

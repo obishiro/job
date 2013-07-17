@@ -94,7 +94,7 @@
 </tr>
 </table>
 <hr/>
-    <? } ?>
+    <?php } ?>
 <?php
     $sql_edu2=$this->db->where('usr_id',$UsrId)->get('tb_education2')->result_array();
     foreach ($sql_edu2 as $rs_edu2) { ?>
@@ -190,7 +190,7 @@
 </tr>
 </table>
 <hr/>
-    <? } ?>
+    <?php } ?>
 
 <?php
     $sql_edu3=$this->db->where('usr_id',$UsrId)->get('tb_education3')->result_array();
@@ -286,7 +286,7 @@
 </tr>
 </table>
 <hr/>
-    <? } ?>
+    <?php } ?>
            <div class="form-actions">
       <?php echo form_hidden('edit-education','1');?>  
               <input type="hidden" value="<?=$UsrId;?>" name="UID" />

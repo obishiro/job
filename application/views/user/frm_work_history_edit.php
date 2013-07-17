@@ -90,7 +90,7 @@
           <?php
         $this->Md_user->_getselecttype("tb_faculty",$rs_h['h9'],'Id','fac_name');
         ?> 
-                </select>
+        </select>
     </td>
     </td>
 </tr>

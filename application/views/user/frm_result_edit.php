@@ -119,7 +119,7 @@
     </td>                               
 </tr>
 </table>
-     <? } ?>
+     <?php } ?>
     <div class="form-actions">
       <?php echo form_hidden('edit-result','1');?>  
               <input type="hidden" value="<?=$UsrId;?>" name="UID" />
