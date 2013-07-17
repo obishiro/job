@@ -18,7 +18,9 @@ class Company extends CI_Controller{
                 'UsrName'=>$this->session->userdata('UsrComName')
                     
             );
-         //   $this->load->view("company/user_menu",$data);
+            $this->load->view("company/company_menu",$data);
+            
+          
         }else{
         $this->load->view("company/frm_login",$data);
         }
